@@ -1,0 +1,28 @@
+﻿Öncelikle Gönülden Cevap Verilebilmesi Gereken Sorular
+• Bu dersi neden görüyorum?
+• Bu ders ne işime yarayacak?
+• Bu kanular çok temel, neden bu kadar temelden öğreniyoruz? Biraz daha hazır yapılar kullansak ya?
+
+
+İşe Yarar Cevaplar Verebildiysek Derse Başlayabiliriz
+• Bu ders sonunda HTML, CSS, JavaScript, Php programlama dillerinin ve basit resim kırpma işlemlerinin en temelini öğrenip, öğrendiklerinizin üzerine kendinizi geliştirebilir bilgiye sahip olacaksınız
+• Dersin ve dersten sonrasının verimli geçebilmesi için bazı koşullara uymanızı istiyoruz
+-> Kendi tarzınızı bularak (bilgisayar ortamında) not alma alışkanlığı (bir sefer kullandığınız bir kodu ileride tekrar aramak zorunda kalmamanız için)
+-> En başından projeleri düzenli klasörlendirip sürüm mantığını kavramaya gayret gösteriniz (Hatta sırf denemelerinizi yaptığınız bir klasör bile tanımlayınız)
+
+
+DERS 1 - Kurulum ve Çalıştırma
+-> WampServer (veya benzer) sunucu programını indir ve kur (Arama Motoruna: "WampServer indir" yazarak aratabilirsin)
+-> Bilgisayarım -> "C:\\wamp\www" klasörünün içine gir ve klasör içindeki tüm dosyaları sil (◘•◘ görselindeki gibi)
+-> "http://zertel.net/indir/orneksite.zip" dosyasını indir
+-> "orneksite.zip" dosyasını "C:\wamp\www" klasörünün içine çıkart
+-> Wamp sunucusunu çalıştır (Sağ alttaki simgesinin yeşil olduğundan emin ol. Turuncu ise problemli ama çalışıyor, kırmızı ise çalışmıyor demektir)
+-> Bir internet tarayıcı(web browser) aç ve adres olarak "http://localhost" yaz ve giriş yap
+-> Şu görsele benzer, ◘•◘ içerisinde "orneksite" klasörünün de görüldüğü ufak bir liste ile karşı karşıya kalınmış ise sunucu kurulumu tamamlanmış demektir
+-> "orneksite" klasörüne tıkla ve Örnek Websitesini görüntüle (Dosyaları çıkartırken klasöre çıkarttıysan bir klasör daha içeri girmen gerekecek)
+-> Kırmızı menüye sahip örnek web sitesi, başarılı bir şekilde görüntülendiyse menüdeki "Php Kontrol Sayfası" isimli sayfaya uğra
+-> Php Kontrol Sayfasında "Bu yazıyı beş defa okuyor isen PHP sunucusu başarılı bir şekilde çalışıyor demektir." yazısı beş adet görünüyor ise php sunucusu da başarılı bir şekilde çalışıyor demektir.
+-> Son olarak, kod yazmanda sana yardımcı olacak notepad++(metin editörü) programını indir ve kur (Bir çok ücretli ve ücretsiz metin editörü bulunmakta dilersen onlardan beğendiğin birini de kurabilirsin fakat dersler bu editör üzerinden anlatılacaktır)
+
+DERS 2 - HTML/CSS/JS Kullanılmış Örnek Websitesini Kendine Özelleştir
+

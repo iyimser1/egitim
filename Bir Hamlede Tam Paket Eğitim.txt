@@ -1,0 +1,94 @@
+• Sistemin kurulu ve çalýþýr olduðundan emin ol
+-> Bir adet web browser (web tarayýcý)
+-> Aktif Localhost (Bilgisayarýn çalýþan yerel sunucusu)
+-> Kurulmuþ ve sýkýntýsýz çalýþan php programlama dili
+-> Kurulmuþ ve çalýþan MySQL veritabaný sunucusu
+-> Bir adet metin editörü programý (Önerdiðimiz: Notepad++)
+
+
+• Localhost'a yeni proje aç
+-> localhost root dizinine "benimsitem" isimli klasör oluþtur (Tüm harfleri küçük ve türkçe harf kullanmadan)
+-> Metin editörü programýnda yeni bir dosya aç ve þu html kodlarý kopyala
+
+<!DOCTYPE html>
+<html>
+<head lang="tr">
+	<meta charset="utf-8">
+	<title>Benim Sitem</title>
+</head>
+<body>
+	<h1>Merhaba Dünya!</h1>
+</body>
+</html>
+
+-> Dosyayý "index.html" ismi ile, yeni oluþturduðun "benimsitem" isimli proje klasörüne kaydet
+{Bilgi: Proje ismi aslýnda önemsiz fakat ders boyunca bu isim ile belirteceðim, aynýsýný kullanman sana kolaylýk saðlayabilir. }
+-> Bir web browser aç ve adres çubuðuna "http://localhost/benimsitem" yaz ve gönder
+
+
+• Projeye Bootstarp'ý dahil et
+-> "getbootstrap.com" adresine gir
+-> Bootstrap indirme sayfasýna git
+-> "Bootstrap CDN" grubundaki kodlardan ilk iki <link ...> etiketini (gri renktekileri saymazsak ilk dört satýrý) kopyala.
+{Bilgi: Link etiketi bir dosyayý siteye çaðýrmaya yarar. }
+{B: Gri renkteki kodlar yorum satýrý olarak bilinir, bu þekilde yazýlanlarý son kullanýcý göremez, genelde geliþtiricilerin dipnotudur. }
+-> Kopyaladýðýn link etiketlerini "index.html" dosyasý içine <title>...</title> etiketinden (5. satýrdan) sonrasýna iki enter bas (iki satýr ekle) ve yapýþtýr. (<head>...</head> etiketlerinin dýþýna taþmadýðýndan emin ol)
+{B: <head>...</head> etiketi içindekileri son kullanýcý göremez, sitenin ayarlarýnýn web tarayýcýya anlatýldýðý kýsýmdýr. }
+{B: Kodlarý yapýþtýrdýðýnda sola yaslý gelmiþ olmalý, yapýþtýrdýðýn kodlarý seçip "tab" tuþuna bir sefer basarak hizaya sokabilirsin. (Esc nin iki altýndaki tuþ)}
+-> Bootstrap'ýn sitesine dön, geriye kalan <script> etiketini de kopyala ve "index.html" dosyasýna <body>...</body> tagý içindeki <h1>...</h1> tagýndan sonra iki enter bas ve yapýþtýr
+{B: Script etiketinin iki farklý kullanýmý vardýr biz þuan siteye dosya çaðýrma özelliðini kullanarak bootstrap için gerekli bir dosyayý projeye dahil etmiþ olduk. }
+
+
+• Projeye JQuery'i dahil et
+-> "jquery.com" adresine gir
+-> Ýndirme sayfasýna git
+-> "Ctrl + F" tuþlarýna basarak arama kutucuðunu çaðýr
+-> "Google CDN" linkini (baðlantýsýný) ara, bul ve týkla
+-> Ýlk <script ..> etiketini kopyala ("3.x snippet:" gibi)
+{B: Þuan 3. sürümü var olduðu için "3.x snippet:" sen en günceli seçip projeye dahil etmelisin}
+
+
+• HTML master iskeleti hazýrla
+
+
+• AjaxGezgin kütüphanesini projeye dahil et
+
+
+• Anasayfayý hazýrla
+-> 4 satýr ve 4. satýra 3 sütun þablon
+-> slayt ekle
+-> baþlýk ve metin ekle
+-> baþlýk ve üç stun resim ekle
+[.row .carousel]
+[.row h1]
+[.row p]
+[.row h1]
+[.row x3.col-md-4 img]
+
+
+• Hakkýmýzda sayfasýný hazýrla
+-> 3 satýr þablon
+-> baþlýk, metin, büyük resim ekle
+[.row h1]
+[.row p]
+[.row img]
+
+
+• Ýletiþim sayfasýný hazýrla
+-> Ýletiþim bilgileri ve bize yazýn formu 
+
+
+• Hizmetlerimiz sayfasýný hazýrla
+-> Yaptýðýmýz iþlerin görselli listesi
+
+
+• PhpMyAdmin ile bir veritabaný ve içine bir tablo oluþtur
+
+
+• z kütüphanesini projeye dahil et
+
+
+• Hizmetlerimiz sayfasýnýn içeriðini veritabanýndan okuyarak görüntüle
+
+
+• Dördüncü sayfa 

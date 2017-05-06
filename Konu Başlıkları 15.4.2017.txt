@@ -1,0 +1,370 @@
+SÝTE NASIL YAPILIR?
+
+Öðrenilmesi Gereken Programlama Dilleri
+• HTML5
+• CSS
+• JavaScript
+• PHP
+• SEO (Ýçerikle)
+• Resim Ýþleme (Gimp-PhotoShop)
+• Mobil Uygulama Çýkartma
+• HTML5 Canvas Çizim Oyun
+
+Öðrenilmesi, Kurulmasý Gereken Programlar
+• Sunucu Programý (Wamp, Xamp)
+• Metin Editörü (Önerilen Notpad++)
+• PhotoShop Programý (Önerilen Gimp)
+• Cordova Programý (+Framework 7)
+• Ekran Görüntüsü Kaydetme Programý
+• Türkçe ve Ýngilizce Sorun tespit etme ve sorunlara çözüm arama yollarý
+
+
+
+• HTML5 (+Bootstrap)
+-> HTML5 Uyumlu Ana Þablon Ýle Ýlk Sayfayý Oluþturma
+->  
+• CSS
+• JavaScript (+JQuery)
+• PHP
+• SEO (Ýçerikle)
+• Resim Ýþleme (Gimp-PhotoShop)
+
+
+KURUMSAL WEB SÝTESÝ YAPIMI
+HTML Ýskelet Hazýrlama
+• Yerel sunucu programýný çalýþtýr
+• Sunucu klasöründe yeni site için bir klasör oluþtur (Türkçe karakter, boþluk ve büyük küçük harf olmasýn)
+-> Ör: benimsitem/
+• Site klasörünü içerisinde sýrasýyla css ve icerik isimli iki klasör oluþtur
+• Metin editör programýný aç içleri boþ olarak sýrasýyla
+-> 'benimsitem/' klasöründe 'index.php' dosyasý
+-> 'benimsitem/css/' klasöründe 'style.css' dosyasý
+-> 'benimsitem/icerik/' klasöründe 'anasayfa.php', 'hakkimizda.php', 'iletisim.php' dosyalarý oluþtur ve kaydet
+• Metin editör programý ile 'index.php' dosyasýný aç
+• HTML, HEAD, BODY HEADER SECTION FOOTER etiketlerini uslubu ile kullanarak html site þablonunu hazýrla
+• HEADER içinde UL etiketini uslubu ile kullanarak menü hazýrla
+-> Ör: Anasayfa, Hakkýmýzda ve Ýletiþim
+-> Href Ör: '?sayfa=anasayfa', '?sayfa=hakkimizda', '?sayfa=iletisim'
+• SECTION içine dinamik içerik PHP kodunu uygula
+-> Ör: <?php include( __DIR__.'/icerik/'.( !empty($_GET['sayfa']) ? $_GET['sayfa'] : 'anasayfa' ).'.php' ); ?>
+• FOOTER içinde yardýmcý baðlantýlarý ve site yapýmcý bilgilerini hazýrla
+• Çalýþmayý yerel sunucu içinde oluþturduðun 'benimsitem' klasörünün içine 'index.php' olarak kaydet
+• Metin editör programý ile 'içerik' klasörünün içindeki 'anasayfa.php' dosyasýný aç
+• Anasayfada görünmesini istediðin içerik metinlerini ve görsellerini hazýrla ve kaydet
+• Metin editör programý ile 'içerik' klasörünün içindeki 'hakkimizda.php' dosyasýný aç
+• Site ve firma hakkýnda bilinmesi gereken bilgileri ve görsellerini hazýrla ve kaydet
+• Metin editör programý ile 'içerik' klasörünün içindeki 'iletisim.php' dosyasýný aç
+• Firmanýn iletiþim adres bilgilerini hazýrla ve kaydet
+• Web Tarayýcý aç ve 'http://localhost/benimsitem' yazarak yerel sunucuda ki yeni hazýrladýðýn siteyi görüntüle
+
+CSS Görsel Güzelleþtirme
+• Metin editörü programý ile yeni bir dosya oluþtur
+• BODY için reset CSS kodlarý hazýrla
+-> Ör: body{ margin:0; padding:0; }
+• Arkaplan, menü veya site genel görünümünü özelleþtirmek amaçlý CSS kodlarý hazýrla
+-> Ör: body{ background: green; font-size: 12pt; }
+-> Ör: .menu{ background: blue; }
+
+
+
+/////// 09.04.2017 ///////////////////////////////
+• Öðrenmeyi Öðretme
+• Web tasarýmý yapmayý ve yayýnlamayý öðrenme
+-> HTML (Bootstrap)
+-> CSS
+-> JS (JQuery)
+-> PHP
+-> SEO
+-> Resim Ýþleme (Gimp, PhotoShop)
+-> Mobil Uygulama (Cordova)
+
+• Motivasyon & Ýstikrar
+• Yol, Yordam ve Yöntem
+-> Örnek örnek örnek
+-> Uygulama uygulama uygulama
+-> Yol alternatifleri
+-> Karþýlaþýlan problemler / Nasýl tespit edilecek
+-> Sýklýkla karþýlaþýlan sorunlar / Nasýl çözüm arayacaklar
+-> örnekler ve çözümler
+
+• HTML Sýkça Karþýlaþýlan Problemler
+-> Açýlan etiketi kapatmama
+-> Açýlan etiketi yanlýþ yerde kapatma
+-> <...> iþaretlerine yabancýlýk
+-> <head> etiketinin ne iþe yaradýðý
+-> Çift ve tek týrnak kullaným hatasý
+-> Kopyala yaðýþtýr yaptýktan sonraki tanýmsýz çift ve tek týrnak karakterleri
+
+
+• Motivasyon - Ýlgi - Para
+-> Yarýþma ve rekabet ortamý
+-> Kurumsal Site
+---> Sonunda eline ne geçeceðini göstermek
+---> Ürün veya hizmet ekleme
+---> Basit yönetim paneli
+---> Mail iletiþim formu
+• Odaklanma
+-> Öncelik
+-> Bekleyen iþlerin kafaya takýlmasý
+-> Ayný iþi yapmaktan býkkýnlýk
+-> Para (Elime ne geçecek?)
+-> Ne kadar sürede yapacaðým?
+• Öðrendiklerim Ýþime Yaramazsa Baþka Ne Yapabilirim?
+-> Hangi alanda kullanýlabilir?
+---> Görüntü: Webde HTML/CSS - Masaüstü C#, C++, JAVA, Delphi...
+---> Aksiyon(Event): Webde JS - Masaüstü Form Elemanlarý
+-> Otomasyon Sistemleri (Arduino webden kontrol gibi)
+-> IOT (Ýnterneti olan ev eþyasý)
+-> I4.0
+-> Elektrik, Elektronik, Matemetik gibi konulara yardýmcý programlar
+-> Sistem Yönetimi
+-> Sunucu Yönetimi
+-> Oyun Geliþtirme
+-> Oyun sunucusu hazýrlama
+-> Ýþletim sistemi yazmak isteyenler
+-> Metin editör programý yazmak isteyenler
+-> Yapay zeka
+-> Muhasebe/Excel/Access/Word
+-> Yöneticilik
+-> Satýþ/Pazarlama
+-> Savunma sanayi
+-> Uzay sanayi
+-> Gen sanayi
+-> Nükleer sanayi
+  
+
+//////////////////////// 12.04.2017 ///////////////////////
+ÖÐRENMEYÝ ÖÐRENME
+• Daha önce html öðrenmeye çalýþtýysak veya çalýþanlar neden baþarýlý olamadý, vaz geçti, býraktý, pes etti?
+• Html nedir?
+• Html neden öðreneceðim, ne iþime yarayacak?
+• Html sadece web tasarýmýnda mý iþe yarýyor?
+• Baþka programlarda, yazýlýmlarda, uygulamalarda veya çalýþmalarda html kullanýlabilir mi? Nasýl kullanýlýr? Örnek
+• Html den daha önemli, verimli bir konu var mý? Acaba onu mu öðrenmeliyim?
+• Xml ile Html arasýnda bir baðlantý var mý?
+• Html öðrenmeyi nasýl öðreneceðiz?
+• Html çalýþýrken sýklýkla yapýlan hatalar nelerdir?
+• Html çalýþýrken hangi sorunlar morali bozabiliyor?
+• Html çalýþmayý hangi huslar pes ettiriyor
+• Hangi hususlar vazgeçiriyor?
+• Hangi hususlar korkutuyor?
+• Hangi hususlar soru iþaretleri oluþturuyor?
+• Hangi hususlar kararsýzlýða sevk ediyor?
+• Belirsizlikler ne?
+• Html çalýþýrken neleri yapmak zorunda kalabiliriz?
+• Html ile neler yapýlabilir?
+• Html ile ilgili neler istenebilir?
+• Ýstenen bir þeyin html ile çözülüp çözülmeyeceðini nasýl bulabilirim
+• Html ile sýklýkla yapýlan html çalýþmalarý nelerdir?
+• Html çalýþmalarýný kolaylaþtýran alet edevatlar var mý?
+• Html alet edevatlarý kullanabilmek için ne yapýlýr?
+• Html için framework var mý?
+• Html tema nedir?
+• Html tema nasýl yapýlýr?
+• Müþterinin istediði tarza bir tema nasýl satýn alýnýr?
+• Sadece html ile tema hazýrlanabilir mi?
+• Html öðrenmeye nasýl baþlayacaðým?
+• Hangi konu baþlýklarý sýrasýnca öðreneceðim, fihrist, dizin, içindekiler?
+• Html ile ilgili aklýma geleni nasýl öðreneceðim, yapýlabilir mi, yapýlamaz mý, bunu nasýl öðreneceðim, html ile yapýlabilir mi yapýlamaz mý?
+• Bu iþi sevebilir miyim, nasýl sevebilirim, sevmek zorunda mýyým?
+• Sevmediðim iþi yapabilir miyim?
+• Sevdiðim iþi nasýl bulabilirim?
+• Sevmediðim iþi sevebilir miyim?
+
+
+
+• Resim iþleme neden gerekli?
+-> Ýçeriklere yerleþtirilecek resimlerin uygun boyutlara optimize edilebilmesi için
+----> Resim iþleme programýnda ilgili resmi açýp fazlalýk kýsýmlarý kesip resmi farklý kaydediyorum.
+----> Eðer resim büyük ise küçük kenarý istenen küçük kenarýn boyuta eþitleyip, büyük kenarý istenen büyük kenara eþitlenene kadar kýrparým
+----> Resim iþlerken asla büyültme yapamam
+-> Sayfa yükleme süresini kýsaltabilmek için
+-> Resmi görüntülerken daralarak veya uzayarak görüntüsünün bozulmasýna ve rahatsýz edici görünüme sahip olmasýna engel olmak için
+
+
+
+***************** SORU ÞABLONU
+• Daha önce html öðrenmeye çalýþtýysak veya çalýþanlar neden baþarýlý olamadý, vaz geçti, býraktý, pes etti?
+• Html nedir?
+• Html neden öðreneceðim, ne iþime yarayacak?
+• Html sadece web tasarýmýnda mý iþe yarýyor?
+• Baþka programlarda, yazýlýmlarda, uygulamalarda veya çalýþmalarda html kullanýlabilir mi? Nasýl kullanýlýr? Örnek
+• Html den daha önemli, verimli bir konu var mý? Acaba onu mu öðrenmeliyim?
+• Xml ile Html arasýnda bir baðlantý var mý?
+• Html öðrenmeyi nasýl öðreneceðiz?
+• Html çalýþýrken sýklýkla yapýlan hatalar nelerdir?
+• Html çalýþýrken hangi sorunlar morali bozabiliyor?
+• Html çalýþmayý hangi huslar pes ettiriyor
+• Hangi hususlar vazgeçiriyor?
+• Hangi hususlar korkutuyor?
+• Hangi hususlar soru iþaretleri oluþturuyor?
+• Hangi hususlar kararsýzlýða sevk ediyor?
+• Belirsizlikler ne?
+• Html çalýþýrken neleri yapmak zorunda kalabiliriz?
+• Html ile neler yapýlabilir?
+• Html ile ilgili neler istenebilir?
+• Ýstenen bir þeyin html ile çözülüp çözülmeyeceðini nasýl bulabilirim
+• Html ile sýklýkla yapýlan html çalýþmalarý nelerdir?
+• Html çalýþmalarýný kolaylaþtýran alet edevatlar var mý?
+• Html alet edevatlarý kullanabilmek için ne yapýlýr?
+• Html için framework var mý?
+• Html tema nedir?
+• Html tema nasýl yapýlýr?
+• Müþterinin istediði tarza bir tema nasýl satýn alýnýr?
+• Sadece html ile tema hazýrlanabilir mi?
+******************
+
+
+
+
+//////////////////////// 13.04.2017 ///////////////////////
+• Buradaki sorularda hedefimiz,buradaki eðitimlerde örneklerde hedefimiz öðrenme yi öðretmek, ders bitiminde kurumsal web sitesi hazýrlamýþ olarak dersi bitirmek. Diðer iþ konu baþlýklarý (eticaret sitesi, arp, muhasebe, haber, forum, blog siteleri gibi) hususlardan bahsedeceðiz, ayrýntýya girmeden araþtýrma önerisi vereceðiz
+------------------------------
+• Daha önce html öðrenmeye çalýþtýysak veya çalýþanlar neden baþarýlý olamadý, vaz geçti, býraktý, pes etti?
+-> iþe ýsýnamamak
+-> iþ bana göre çok zor
+-> Projem yoktu ve iþin merak kýsmý bittiði için proje olmadan giriþmek zor geliyordu.
+-> Gereðinden fazla araþtýrma kabiliyetim olmadýðý için sürekli yeni bir þeyler öðrenemiyordum ve iþin hevesi kaçýyordu fakat bunun farkýnda deðildim.
+
+• Html nedir?
+-> Html, web arayüze sahip her uygulamanýn görüntünme kýsmýný üstlenen programlama dilidir
+-> bir web uygulamasýnýn görünen yüzüdür
+-> sadece görüntülemek amaçlý kullanýlan güvenli bilgi aktarým yoludur
+-> Html bilinen programlama dillerinden farklý olarak aktif iþlem göremez. Yardýmcý ve gerçek bir programlama dili kullanýlmadýkça hesaplama yapamaz, içerik asla deðiþmez ve sadece html içeriði geliþtirici tarafýndan deðiþtirilebilir.
+
+//////////////////////// 14.04.2017 ///////////////////////
+
+• Neden html öðreneceðim, ne iþime yarayacak?
+-> Kurumsal, blog, eticaret, forum gibi websitelerin arayüzlerini hazýrlayabilmek için
+-> Elektronik bir cihazýn web arayüz üzerinden doðrudan kontrol edilebilmesini saðlayan paneli hazýrlayabilmek için
+-> Web mantýðýný kavramak ve teknolojinin nasýl ilerlediðine dair ön bilgi edinerek gelecekte olabilecekleri tahmin edebilmek için
+
+• Html sadece web tasarýmýnda mý iþe yarýyor?
+-> Hayýr web arayüzünü kullanan tüm uygulamalarda html kullanýlýr. Bu uygulamalar bilgi paylaþým sitelerinden video sitelerine, kiþisel cihazlarýn yönetiminden online oyunlara kýsacasý ucu web ortamýna dokunan her türlü uygulama için html kullanýlýr
+• Baþka programlarda, yazýlýmlarda, uygulamalarda veya çalýþmalarda html kullanýlabilir mi? Nasýl kullanýlýr? Örnekleri nelerdir?
+-> Evet kullanýlabilir, bir tekstil dokuma makinasýnýn o anki online istatistiklerini görüntülemek için html kullanýlýr.
+-> Wifi ile yönetilebilen bir oyuncak arabanýn web kumandasýndaki butonlar html ile görsellenir
+-> Sosyal paylaþým sitelerindeki fotoðraflar ve yorumlar html ile görüntülenir
+-> Web tarayýcý bazlý çalýþan oyunlar html ile görüntülenir (Ör: Ikariam, O-game, Travian, Darkorbit gibi oyunlar tamamen html ile görüntülenen oyunlardýr) 
+• Html den daha önemli, verimli bir konu var mý? Acaba onu mu öðrenmeliyim?
+-> Teknoloji dünyasýnda "en verimli konu" benzeri bir düþünce doðru deðildir. Eðer verim olarak en verimli diye bir dal olsaydý tüm dünya sadece o konuya odaklanýr diðer konularýn unutulmasýna göz yumardý.
+-> Mesleði windows masaüstü oyun geliþtirmek olan bir geliþtiricinin html öðrenmesi, oyunu geliþtirmeyi öðrenmesinden daha verimli deðildir
+-> Mesleðimiz her ne dal olursa olsun web arayüzü ile iliþkili ise html öðrenmek gerekli ve verimlidir
+ 
+• Xml ile Html arasýnda bir baðlantý var mý?
+-> Evet vardýr; Xml, html etiket mantýðý ile hazýrlanmýþ veritabaný yapýsýdýr.
+-> Html de sabit olan etiketler yerine doðrudan saklanacak verinin adýný alabilen özelleþtirilmiþ etiketler kullanýlýr
+-> Artýk xml unutulmaya ve yerini JSON isimli veritabaný yapýsýna býrakmakmaya baþlamýþtýr.
+• Html öðrenmeyi nasýl öðreneceðiz?
+-> Html için, arama motorlarýndan bulunabilen merhaba dünya uygulamasý ile ilk denemelere baþlanabilir
+-> Html aslýnda geliþtiricileri tarafýndan tanýmlanmýþ, yaptýðýmýz projeyi geliþtirirken ihtiyacýnýz olan etiketlerin nasýl yazýldýðýný ve nasýl kullanýlmasý gerektiðini bilmekten ibarettir
+-> Arama motorlarýnda HTML Referance þeklinde aratýldýðýnda tüm etikerlere ulaþmak mümkündür
+-> w3schools.com gibi öðrenirken denemeye izin verebilen sitelerde ihtiyacýmýz olan etiketi keþfetmek oldukça kolaydýr
+-> html çalýþýlabilecek site isimleri; webcodu.com,
+-> html çalýþýrken yazýlabilecek arama terimleri; html taglarý, html dersleri, html dosyasý, html eðitimleri, html videolarý, bootstrap gibi arama kelimeleri ile arama motorlarýnda arama yapýlabilir 
+
+• Html çalýþýrken sýklýkla yapýlan hatalar nelerdir?
+-> Açýlan etiketi kapatmayý unutma
+-> Açýlan etiketi yanlýþ yerde kapatma
+-> <...> iþaretlerini kullanýrken hata yapabilme veya unutma
+-> Çift ve tek týrnak kullaným hatasý
+-> <head> etiketinin görsel bir etiket olmadýðý, içinde sadece ayar benzeri bilgilerin bulunmasý gerektiði
+-> Kopyala yaðýþtýr yaptýktan sonraki tanýmsýz çift ve tek týrnak karakterleri  örnek: Doðru -> "Selam", Doðru -> 'Selam', Yanlýþ -> `Selam`, Yanlýþ -> ``Selam``, Yanlýþ -> 'Selam", Yanlýþ -> "Selam'
+-> Hazýrlanmakta olan içeriðin doðru etiket içine uygulanýp uyguþanmadýðýnýn kontrol edilmemesi
+
+• Html çalýþýrken hangi sorunlar morali bozabiliyor?
+-> Görünmesini istediðimiz görselin tam istediðimiz konumda görünmeme durumlarý (Görsel örnek gerekli)
+-> Hazýrlanmýþ iskeletin projeye yetersiz olma durumunda ileride zora sokmasý
+-> Ýnternetten kopyalanmýþ etiketin projede çalýþmamasý
+
+• Html çalýþmayý hangi hususlar pes ettiriyor
+-> Çalýþmayan kodlar
+• Hangi hususlar vazgeçiriyor?
+-> Özelliðinin fazla olmamasý
+-> Kullanýcý etkileþiminin olmayýþý
+• Hangi hususlar korkutuyor?
+-> Web ortamýnýn nasýl çalýþtýðýný tam kavrayamamak
+-> Gerekli yardýmcý programlama dillerini bilmemek
+• Hangi hususlar soru iþaretleri oluþturuyor?
+-> Form etiketlerinin veriyi nereye göndereceði
+-> Hangi etiketin nerede kullanýlmasý gerektiði
+-> Öðrenilmesi gereken ne kadar etiket olduðu
+-> Minimum hangi etiketlerin öðrenilmesi gerektiði
+-> Diðer dillerin html e nasýl bir destek verdiði
+-> Html gibi baþka bir dilin daha olup olmadýðý
+• Hangi hususlar kararsýzlýða sevk ediyor?
+-> Html ve web kavramýnýn ne olduðunu bilmemek
+
+//////////////////////// 15.04.2017 ///////////////////////
+
+• Belirsizlikler ne?
+-> Html den baþka görüntüleme dilinin olup olmamasý
+• Html çalýþýrken neleri yapmak zorunda kalabiliriz?
+-> Bazý durumlarda bilgisayara yerel sunucu programý kurmak gerekebilir (Wamp, xamp gibi..)
+-> Css, js, php gibi yardýmcý diller öðrenmemiz gerekebilir
+• Html ile neler yapýlabilir?
+-> Konusu farketmez, herhangi bir web sitesi ön görseli html ile oluþturulur
+-> Akýllý evin o anki durum bilgileri herhangi bir web tarayýcýdan html ile görüntülenir
+-> Javascript ile desteklenirse html ile hesap makinesi yapmak mümkündür
+• Html ile ilgili neler listenebilir?
+-> Web arayüzü, mobile arayüzü, css js veya aktif sunucu sayfasý olarak çalýþan programlama dilleri, tarayýcý oyunlarý
+• Ýstenen bir þeyin html ile çözülüp çözülmeyeceðini nasýl bulabilirim
+-> web ortamýnda ki benzer uygulamalarý arama motorlarýyla arayýp benzer örneklerini bularak.
+-> html yalnýz baþýna doðrudan çözüm üretemeyebilir, bu durumda yardýmcý programlama dilleri de araþtýrýlabilir
+• Html ile sýklýkla yapýlan html çalýþmalarý nelerdir?
+-> Kurumsal web siteleri; firmalarýn insanlar tarafýndan tanýnmalarýný kolaylaþtýran çözümdür
+-> Blog web siteleri; insanlarýn düþüncelerini, bilgilerini ve eylemlerini paylaþabildiði kiþiye özel web siteleridir
+-> E-ticaret siteleri; üreticilerin, kendilerine uzaktaki müþterilere ürün ve hizmet satabilmesini saðlayan çözümdür
+-> Sosyal paylaþým siteleri; Birden fazla kullanýcýnýn birden fazla konuda birden fazla paylaþýmda bulunabildiði bilgi paylaþým web siteleridir
+-> Özel yazýlýmlar; müþterinin iþ yönetimi gibi veya muhasebe konularý ele alabilen çözüm ve kolaylýk saðlama odaklý web tabanlý uygulamalar dahi html ile görsellenirler
+-> google.com veya facebook.com gibi bildiðimiz web siteleri de html ile görüntülenir
+• Html çalýþmalarýný kolaylaþtýran alet edevatlar var mý?
+-> Html kod yazýmýný kolaylaþtýran ücretli ücretsiz bir çok metin editör programý bulunmaktadýr. Hatta bazý editörler görsel hamleler ile kod üretmeyi amaçlayarak hiç kod kullanmadan web sitesi hazýrlamayý vaad etmektedirler. (Konu html öðrenmek olduðunda bu yöntem pek de yararlý deðildir)
+-> Web ortamýnda geliþtirilen uygulamalara baþkalarýnýn hazýrlamýþ olduðu kütüphaneleri dahil edip kullanmak da mümkündür (Ör: tarih seçim kutucuðu, facebook ile giriþ yap özelliði gibi...)
+• Html alet edevatlarý kullanabilmek için ne yapýlýr?
+-> Kütüphaneleri projeye dahil edilir, kullaným örnekleri projede test edilir
+• Html için framework(hazýr yapýlar) var mý?
+-> Evet, html ile hem masaüstü hem mobile arayüzler hazýrlayabileceðiniz bir çok framework bulunmaktadýr. Bunlardan en yaygýn olanlarýndan biri bootstrap týr
+• Html tema nedir?
+-> Html tema, belli bir konuya sahip proje için gerekli tüm görsellerin html,css,js ile sanki proje tamamlanmýþçasýna oluþturulup bir kenarda bekletilen haline tema denir. Arka planda yapmasý gereken iþlemleri gerçekleþtiremeyen sabit bir arayüzdür. Üzerindeki yazýlar ve içerikler asla deðiþmez(js dom olaylarý iþlemleri dýþýnda).
+• Html tema nasýl yapýlýr?
+-> Projede olmasý gereken kýsýmlar taslak olarak kaðýt üzerinde düþünülür, html iskelet hazýrlanýr, css ile süslenir, js ile hareketlendirilir
+-> Head, header, section, footer gibi etiketlerin kullaným uslubuna dikkat edilerek hazýrlanmalýdýr
+-> Ýhtiyacý karþýlayan tüm html etiketleri ve o etiketlerin alt özellikleri öðrenilmelidir
+• Müþterinin istediði tarza bir tema nasýl satýn alýnýr?
+-> Sadece tema hazýrlayýp satmaya odaklý güvenilir siteler bulunmaktadýr. Bu sitelerden demo temalarý görüntüleyerek test edip sonra beðendiðinizi kredi kartý ile satýn alabilirsiniz.
+• Sadece html ile tema hazýrlanabilir mi?
+-> Mümkündür fakat günümüzde css stil kodlarý kullanýlmadan hazýrlanacak tema iþimize yaramayacaktýr
+-> Sadece html ve css ile gayet baþarýlý temalar hazýrlanabilir
+• Html öðrenmeye nasýl baþlayacaðým?
+-> Masaüstüne sað týklayarak yeni metin belgesi oluþturarak html öðrenmeye baþlanabilir
+-> baþlangýç için html, head, body etiketlerini arama motorlarýnda aratarak öðrenmek yeterli olacaktýr
+-> Devamýnda temel 15 - 20 etiketin öðrenimi ile ihtiyacý karþýlayan temalar hazýrlanabilir
+• Hangi konu baþlýklarý sýrasýnca öðreneceðim, fihrist, dizin, içindekiler?
+-> Sýrasýyla HTML, HEAD, BODY, HEADER, SECTION, FOOTER, H1, H2, H3, P, DIV, SPAN, UL, LI, STRONG gibi temel etiketleri sýrasýyla öðrenmek gerekmektedir
+-> Html görseli süsleyebilmek için css style mantýðýný da kavramak gerekmektedir
+• Html ile ilgili aklýma geleni nasýl öðreneceðim, yapýlabilir mi, yapýlamaz mý, bunu nasýl öðreneceðim, html ile yapýlabilir mi yapýlamaz mý?
+-> Html, her türlü web uygulamasýnýn görsel arayüzünü hazýrlayabilecek þekilde tasarlanmýþtýr. o sebeple aklýmýzdaki proje bilgisayar ortamýnda hazýrlanabiliyor ise gayet baþarýlý bir biçimde web ortamýnda da hazýrlanabilir ve html ile görselleþtirilebilir.
+• Bu iþi sevebilir miyim, nasýl sevebilirim, sevmek zorunda mýyým?
+-> Programlama eðlenceli olduðu kadar zor ve sýkýcýdýr, belirlediðiniz bir projeyi hazýrlamak, maddi kazanç saðlamak veya severek yapmak gibi gerçek bir sebebiniz bulunmadýðýnda istikrarsýzlýða ve zaman kaybýna sebep olabilir. Bununla beraber iþi tanýmak, beðenilip beðenilmeyeceðine karar vermek için ise bir projeye baþlamak en doðru test biçimi olacaktýr.
+• Sevmediðim iþi yapabilir miyim?
+-> Ýhtiyaçlar doðrultusunda evet. Fakat kalitenin düþmesine sebep olabilir.
+• Sevdiðim iþi nasýl bulabilirim?
+-> Çocukluðunuzda elektronikten hoþlanýyor muydunuz? mekatronik benzeri...
+-> Yapboz veya lego gibi oynlardan hoþlanýyor muydunuz? programlama iyidir
+• Sevmediðim iþi sevebilir miyim?
+
+
+
+//////////////////////////////// 16.04.2017 ///////////////////
+• Html kullaným örnekleri
+-> Saf html
+-> Html içinde css kullanýmý
+-> Html içinde js kullamý
+-> Html içinde php kullanýmý
+-> Php içinde html kullanýmý
+-> js içinde html kullanýmý
+-> Html içinde ajax html kulanýmý
+
+
+24.820

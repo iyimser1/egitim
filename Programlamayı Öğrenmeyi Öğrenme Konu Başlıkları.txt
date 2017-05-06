@@ -1,0 +1,42 @@
+ÝPUCLARINI YAKALA
+• Öncelikle "http://zertel.net/ipuclari" adresine veya Örnek klasöründeki "Ýpuclarý.txt" dosyasýna bir göz at
+
+
+KURULUM
+• Uygulama geliþtirilecek ortamý tam anlamýyla çalýþýr konuma getir
+--> Kurulacak sistemin nasýl kurulduðunu anlatan üç video izle fakat hiç birini uygulama (Öncelikle, gerçekte ne kurman gerektiðini öðrenmiþ olman, senin sisteme en baþtan hakim olmana yardýmcý olacaktýr)
+--> Ýzlediðin üç video içinden beðendiðin birini seç ve uygulamaya baþla (takýldýðýn kýsým olursa diðer videolarda ayný yere ait anlatým var ise onlardan da yardým alarak çözüm bulabilirsin. fakat asla video deðiþtirme, hangisiyle baþladýysan onunla tamamlamaya çalýþ. biraz zorla )
+--> Kurduðun sistem veritabaný kullanan bir sistem ise izlediðin videolarda veritabanýnýn kurulumu dahil edilip edilmediðini kontrol et, edilmemiþ ise veritabanýnýn ne olduðunu kavramak ve kurmak için araþtýrmalara baþla
+
+
+ÖRNEK PROJE EDÝN
+• Konusu hiç farketmez, bir projeyi kendi sisteminde çalýþtýr ve test et(yani kullan)
+--> Proje dosyalarýný kopyaladýktan sonra veritabaný ile çalýþan bir proje ise (projenin dosyalarý arasýnda bir yerlerde yedek olarak duran) veritabanýný, senin veritabaný sunucuna yüklemeni isteyecektir. Bu konu için database export ve import kavramlarýný öðrenmelisin. Kurulum yaparken veritabaný kurulmamýþ ise video izleyerek onu da kurman gerekecektir
+
+
+PROJEYÝ BOZ
+• Projeye sana özel en az 4 farklý deðiþiklik yap
+--> Birine projeyi gösterirken bak þu þu þu ve bu özellikleri ben ekledim veya deðiþtirdim
+--> Ne yaptýðýn hiç önemli deðil, 4 farklý yerdeki metinleri deðiþtirmiþ olsan bile yeterli (ki bu hamle Ýngilizce bir projeyi Türkçe'ye çevirirken yapýlmasý gerekenlerle neredeyse aynýdýr)
+
+
+PROJEYÝ BOZ 2
+• Projede var olan (senin editlemediðin) bir özelliði projeden kaldýr
+--> Kaldýrdýðýn özelliðin hiç bir kalýntýsýnýn kalmadýðýndan ve sorunsuz çalýþtýðýndan emin ol
+
+
+PROJEYÝ YAP
+• Projeye, sana özel bir özellik ekle
+--> Mantýklý bir iþlevi olmasý gerekmez
+--> Projede var olan özelliklerin parçacýklarýndan yararlanabilirsin
+
+
+PROJE DÜÞÜN
+• Bir proje belirle
+-> Ýnternette ve çevrendeki örneklerden esinlenebilirsin
+-> Orjinal olmak zorunda deðil fakat orjinalin her zaman rakibin olacaktýr
+-> Asla herþey keþvedilmiþ olarak düþünme, projeyi geliþtirmeyi düþündüðün alana daha uzaktan bakmaya çalýþ.
+• Sorulmasý gereken sorularý korkmadan sor
+-> Sorulmasý gereken sorulara örnek bir diyaloða ulaþmak istersen, "http://zertel.net/bir_projeye_baslarken" adresine veya Örnek klasöründeki "Bir Projeye Baþlamak.txt" dosyasýna göz atabilirsin.
+• Projeyi nasýl geliþtireceðine karar ver
+-> En baþtan baþlamak yerine örnek projeler veya hazýr yapýlar üzerinden ilerlemeyi düþünebilirsin
