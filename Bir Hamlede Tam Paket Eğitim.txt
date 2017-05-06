@@ -1,14 +1,14 @@
-• Sistemin kurulu ve çalışır olduğundan emin ol
--> Bir adet web browser (web tarayıcı)
--> Aktif Localhost (Bilgisayarın çalışan yerel sunucusu)
--> Kurulmuş ve sıkıntısız çalışan php programlama dili
--> Kurulmuş ve çalışan MySQL veritabanı sunucusu
--> Bir adet metin editörü programı (Önerdiğimiz: Notepad++)
+â€¢ Sistemin kurulu ve Ã§alÄ±ÅŸÄ±r olduÄŸundan emin ol
+-> Bir adet web browser (web tarayÄ±cÄ±)
+-> Aktif Localhost (BilgisayarÄ±n Ã§alÄ±ÅŸan yerel sunucusu)
+-> KurulmuÅŸ ve sÄ±kÄ±ntÄ±sÄ±z Ã§alÄ±ÅŸan php programlama dili
+-> KurulmuÅŸ ve Ã§alÄ±ÅŸan MySQL veritabanÄ± sunucusu
+-> Bir adet metin editÃ¶rÃ¼ programÄ± (Ã–nerdiÄŸimiz: Notepad++)
 
 
-• Localhost'a yeni proje aç
--> localhost root dizinine "benimsitem" isimli klasör oluştur (Tüm harfleri küçük ve türkçe harf kullanmadan)
--> Metin editörü programında yeni bir dosya aç ve şu html kodları kopyala
+â€¢ Localhost'a yeni proje aÃ§
+-> localhost root dizinine "benimsitem" isimli klasÃ¶r oluÅŸtur (TÃ¼m harfleri kÃ¼Ã§Ã¼k ve tÃ¼rkÃ§e harf kullanmadan)
+-> Metin editÃ¶rÃ¼ programÄ±nda yeni bir dosya aÃ§ ve ÅŸu html kodlarÄ± kopyala
 
 <!DOCTYPE html>
 <html>
@@ -17,48 +17,48 @@
 	<title>Benim Sitem</title>
 </head>
 <body>
-	<h1>Merhaba Dünya!</h1>
+	<h1>Merhaba DÃ¼nya!</h1>
 </body>
 </html>
 
--> Dosyayı "index.html" ismi ile, yeni oluşturduğun "benimsitem" isimli proje klasörüne kaydet
-{Bilgi: Proje ismi aslında önemsiz fakat ders boyunca bu isim ile belirteceğim, aynısını kullanman sana kolaylık sağlayabilir. }
--> Bir web browser aç ve adres çubuğuna "http://localhost/benimsitem" yaz ve gönder
+-> DosyayÄ± "index.html" ismi ile, yeni oluÅŸturduÄŸun "benimsitem" isimli proje klasÃ¶rÃ¼ne kaydet
+{Bilgi: Proje ismi aslÄ±nda Ã¶nemsiz fakat ders boyunca bu isim ile belirteceÄŸim, aynÄ±sÄ±nÄ± kullanman sana kolaylÄ±k saÄŸlayabilir. }
+-> Bir web browser aÃ§ ve adres Ã§ubuÄŸuna "http://localhost/benimsitem" yaz ve gÃ¶nder
 
 
-• Projeye Bootstarp'ı dahil et
+â€¢ Projeye Bootstarp'Ä± dahil et
 -> "getbootstrap.com" adresine gir
--> Bootstrap indirme sayfasına git
--> "Bootstrap CDN" grubundaki kodlardan ilk iki <link ...> etiketini (gri renktekileri saymazsak ilk dört satırı) kopyala.
-{Bilgi: Link etiketi bir dosyayı siteye çağırmaya yarar. }
-{B: Gri renkteki kodlar yorum satırı olarak bilinir, bu şekilde yazılanları son kullanıcı göremez, genelde geliştiricilerin dipnotudur. }
--> Kopyaladığın link etiketlerini "index.html" dosyası içine <title>...</title> etiketinden (5. satırdan) sonrasına iki enter bas (iki satır ekle) ve yapıştır. (<head>...</head> etiketlerinin dışına taşmadığından emin ol)
-{B: <head>...</head> etiketi içindekileri son kullanıcı göremez, sitenin ayarlarının web tarayıcıya anlatıldığı kısımdır. }
-{B: Kodları yapıştırdığında sola yaslı gelmiş olmalı, yapıştırdığın kodları seçip "tab" tuşuna bir sefer basarak hizaya sokabilirsin. (Esc nin iki altındaki tuş)}
--> Bootstrap'ın sitesine dön, geriye kalan <script> etiketini de kopyala ve "index.html" dosyasına <body>...</body> tagı içindeki <h1>...</h1> tagından sonra iki enter bas ve yapıştır
-{B: Script etiketinin iki farklı kullanımı vardır biz şuan siteye dosya çağırma özelliğini kullanarak bootstrap için gerekli bir dosyayı projeye dahil etmiş olduk. }
+-> Bootstrap indirme sayfasÄ±na git
+-> "Bootstrap CDN" grubundaki kodlardan ilk iki <link ...> etiketini (gri renktekileri saymazsak ilk dÃ¶rt satÄ±rÄ±) kopyala.
+{Bilgi: Link etiketi bir dosyayÄ± siteye Ã§aÄŸÄ±rmaya yarar. }
+{B: Gri renkteki kodlar yorum satÄ±rÄ± olarak bilinir, bu ÅŸekilde yazÄ±lanlarÄ± son kullanÄ±cÄ± gÃ¶remez, genelde geliÅŸtiricilerin dipnotudur. }
+-> KopyaladÄ±ÄŸÄ±n link etiketlerini "index.html" dosyasÄ± iÃ§ine <title>...</title> etiketinden (5. satÄ±rdan) sonrasÄ±na iki enter bas (iki satÄ±r ekle) ve yapÄ±ÅŸtÄ±r. (<head>...</head> etiketlerinin dÄ±ÅŸÄ±na taÅŸmadÄ±ÄŸÄ±ndan emin ol)
+{B: <head>...</head> etiketi iÃ§indekileri son kullanÄ±cÄ± gÃ¶remez, sitenin ayarlarÄ±nÄ±n web tarayÄ±cÄ±ya anlatÄ±ldÄ±ÄŸÄ± kÄ±sÄ±mdÄ±r. }
+{B: KodlarÄ± yapÄ±ÅŸtÄ±rdÄ±ÄŸÄ±nda sola yaslÄ± gelmiÅŸ olmalÄ±, yapÄ±ÅŸtÄ±rdÄ±ÄŸÄ±n kodlarÄ± seÃ§ip "tab" tuÅŸuna bir sefer basarak hizaya sokabilirsin. (Esc nin iki altÄ±ndaki tuÅŸ)}
+-> Bootstrap'Ä±n sitesine dÃ¶n, geriye kalan <script> etiketini de kopyala ve "index.html" dosyasÄ±na <body>...</body> tagÄ± iÃ§indeki <h1>...</h1> tagÄ±ndan sonra iki enter bas ve yapÄ±ÅŸtÄ±r
+{B: Script etiketinin iki farklÄ± kullanÄ±mÄ± vardÄ±r biz ÅŸuan siteye dosya Ã§aÄŸÄ±rma Ã¶zelliÄŸini kullanarak bootstrap iÃ§in gerekli bir dosyayÄ± projeye dahil etmiÅŸ olduk. }
 
 
-• Projeye JQuery'i dahil et
+â€¢ Projeye JQuery'i dahil et
 -> "jquery.com" adresine gir
--> İndirme sayfasına git
--> "Ctrl + F" tuşlarına basarak arama kutucuğunu çağır
--> "Google CDN" linkini (bağlantısını) ara, bul ve tıkla
--> İlk <script ..> etiketini kopyala ("3.x snippet:" gibi)
-{B: Şuan 3. sürümü var olduğu için "3.x snippet:" sen en günceli seçip projeye dahil etmelisin}
+-> Ä°ndirme sayfasÄ±na git
+-> "Ctrl + F" tuÅŸlarÄ±na basarak arama kutucuÄŸunu Ã§aÄŸÄ±r
+-> "Google CDN" linkini (baÄŸlantÄ±sÄ±nÄ±) ara, bul ve tÄ±kla
+-> Ä°lk <script ..> etiketini kopyala ("3.x snippet:" gibi)
+{B: Åuan 3. sÃ¼rÃ¼mÃ¼ var olduÄŸu iÃ§in "3.x snippet:" sen en gÃ¼nceli seÃ§ip projeye dahil etmelisin}
 
 
-• HTML master iskeleti hazırla
+â€¢ HTML master iskeleti hazÄ±rla
 
 
-• AjaxGezgin kütüphanesini projeye dahil et
+â€¢ AjaxGezgin kÃ¼tÃ¼phanesini projeye dahil et
 
 
-• Anasayfayı hazırla
--> 4 satır ve 4. satıra 3 sütun şablon
+â€¢ AnasayfayÄ± hazÄ±rla
+-> 4 satÄ±r ve 4. satÄ±ra 3 sÃ¼tun ÅŸablon
 -> slayt ekle
--> başlık ve metin ekle
--> başlık ve üç stun resim ekle
+-> baÅŸlÄ±k ve metin ekle
+-> baÅŸlÄ±k ve Ã¼Ã§ stun resim ekle
 [.row .carousel]
 [.row h1]
 [.row p]
@@ -66,29 +66,31 @@
 [.row x3.col-md-4 img]
 
 
-• Hakkımızda sayfasını hazırla
--> 3 satır şablon
--> başlık, metin, büyük resim ekle
+â€¢ HakkÄ±mÄ±zda sayfasÄ±nÄ± hazÄ±rla
+-> 3 satÄ±r ÅŸablon
+-> baÅŸlÄ±k, metin, bÃ¼yÃ¼k resim ekle
 [.row h1]
 [.row p]
 [.row img]
 
 
-• İletişim sayfasını hazırla
--> İletişim bilgileri ve bize yazın formu 
+â€¢ Ä°letiÅŸim sayfasÄ±nÄ± hazÄ±rla
+-> Ä°letiÅŸim bilgileri ve bize yazÄ±n formu 
 
 
-• Hizmetlerimiz sayfasını hazırla
--> Yaptığımız işlerin görselli listesi
+â€¢ Hizmetlerimiz sayfasÄ±nÄ± hazÄ±rla
+-> YaptÄ±ÄŸÄ±mÄ±z iÅŸlerin gÃ¶rselli listesi
 
 
-• PhpMyAdmin ile bir veritabanı ve içine bir tablo oluştur
+â€¢ PhpMyAdmin ile bir veritabanÄ± ve iÃ§ine bir tablo oluÅŸtur
 
 
-• z kütüphanesini projeye dahil et
+â€¢ z kÃ¼tÃ¼phanesini projeye dahil et
 
 
-• Hizmetlerimiz sayfasının içeriğini veritabanından okuyarak görüntüle
+â€¢ Hizmetlerimiz sayfasÄ±nÄ±n iÃ§eriÄŸini veritabanÄ±ndan okuyarak gÃ¶rÃ¼ntÃ¼le
 
 
-• Dördüncü sayfa 
+â€¢ DÃ¶rdÃ¼ncÃ¼ sayfa 
+
+http://zertel.net
