@@ -1,3 +1,4 @@
 # egitim
 egitimGenel
-Celal Öner'in Eğitim Projesi
+
+[a link](http://zertel.net)
