@@ -6,6 +6,11 @@ consolda görülebilen hataları sayfada divin içinde görebilmeye yarar
 gelen div, kapat denince sayfadan domdan silinir
 
 baslangic bitis arasini ilk yüklenen script tagı içine vaya script dosyasi içine, en baş tarafa, ilk satırlara yükleyin yazın kopyalayıp yapıştırın... 
+
+- bunları yapmadan önce consol da, console.log(consol); yazıp enterlayın sonucu inceleyin
+- bunları yaptıktan sonra da consol da, console.log(consol); yazıp enterlayın sonucu inceleyin
+
+inceleyin bakalım  :))
 */
 /*baslangic*/
 
