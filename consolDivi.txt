@@ -1,0 +1,35 @@
+/*
+consola gidip bakmak zor gelen tembellere!!! veya mobil tasarım, webview uygulaması yapanlara 
+
+consolda görülebilen hataları sayfada divin içinde görebilmeye yarar
+
+gelen div, kapat denince sayfadan domdan silinir
+
+baslangic bitis arasini ilk yüklenen script tagı içine vaya script dosyasi içine, en baş tarafa, ilk satırlara yükleyin yazın kopyalayıp yapıştırın... 
+*/
+/*baslangic*/
+
+	if (typeof console  != "undefined") {
+		if (typeof console.log != 'undefined')
+			{console.olog = console.log;}
+		else
+			{console.olog = function() {};}
+	}
+
+console.log = function() {
+      console.olog.apply(console, arguments);
+    //  $('#debugDiv').append('<p>' + [].map.call(arguments, JSON.stringify) + '</p>');
+	var ddivi="<div style='background-color:pink;position:fixed;top:0px;right:0px;width:300px;height:230px;overflow:auto;display:block;word-wrap: break-word;'><button onclick='this.parentNode.parentNode.removeChild(this.parentNode);'>kapat</button><div id='debugDiv' style='background-color:pink;/*position:fixed;top:30px;right:0px;width:300px;height:200px*/;overflow:auto;display:block;word-wrap: break-word;' onclick='if(this.parentNode.style.width=="+'"300px"'+"){this.parentNode.style.width="+'"50px"'+";this.parentNode.style.height="+'"50px"'+";this.parentNode.style.overflow="+'"hidden"'+";}else{this.parentNode.style.width="+'"300px"'+";this.parentNode.style.height="+'"200px"'+";this.parentNode.style.overflow="+'"auto"'+";}'>debug divi</div></div>;";
+
+	if(!document.getElementById('debugDiv')){document.body.innerHTML+=ddivi;/*alert("debugDiv yuklendi")*/;}else{/*alert("debugDiv zaten yüklü")*/;}
+	
+	document.getElementById('debugDiv').innerHTML='<p>' + [].map.call(arguments, JSON.stringify) + '</p>'+document.getElementById('debugDiv').innerHTML;
+	
+};
+window.onerror = console.log;
+
+	console.error = console.log;
+	console.debug = console.log;
+	console.info =  console.log;	
+	console.warn =  console.log;	
+/*bitis*/
