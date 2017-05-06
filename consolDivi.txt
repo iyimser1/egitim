@@ -11,6 +11,10 @@ baslangic bitis arasini ilk yüklenen script tagı içine vaya script dosyasi i�
 - bunları yaptıktan sonra da consol da, console.log(consol); yazıp enterlayın sonucu inceleyin
 
 inceleyin bakalım  :))
+
+ya halil ne  yapıyorsun
+
+
 */
 /*baslangic*/
 
