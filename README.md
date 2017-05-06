@@ -1,4 +1,4 @@
 # egitim
 egitimGenel
 
-[a link](http://zertel.net)
+[zertel.net](http://zertel.net)
